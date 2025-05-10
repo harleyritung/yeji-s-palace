@@ -29,7 +29,7 @@ class GameAudio:
         pygame.mixer.music.load("Assets/Audio/Music/I played FOUR 16th Century KAZOOs Renaissance Italian theme.mp3")
         pygame.mixer.music.set_volume(.1)
         if not mute:
-            pygame.mixer.music.play()
+            pygame.mixer.music.play(-1)
 
 class GameDialogue:
     def __init__(self, camera):
